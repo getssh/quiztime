@@ -1,0 +1,34 @@
+.home {
+    background: linear-gradient(#7463F4, #a095ec);
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    padding: 15px 15px 50px 15px;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+form>* {
+    padding: 10px 0px;
+    width: 70%;
+}
+
+label {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+button {
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,36 @@
+.head {
+    background: linear-gradient(#7463F4, #a095ec);
+    height: 5%;
+    padding: 15px 0px;
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+}
+
+.head__img img{
+    width: 250px;
+    height: 75px;
+    margin-left: -20px;
+}
+
+.question-info {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.question-info h4 {
+    color: #e2e6ee;
+}
+
+.question-info h5 {
+    margin-top: -7px;
+    color: #ececec;
+}
+
+@media screen and (max-width: 480px) {
+    .question-info {
+        display: none;
+    }
+}

@@ -1,0 +1,56 @@
+.quiz {
+  background-color: #B6C6E1;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 6%;
+  width: 60%;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+button {
+  background: #7463F4;
+  border: none;
+  min-height: 50px;
+  min-width: 200px;
+  color: #FFFFFF;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.score {
+  margin-left: 25px;
+}
+
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quiz {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
